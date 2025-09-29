@@ -1816,7 +1816,7 @@ const Dashboard: React.FC = () => {
                 <div className="relative px-5 pb-3 pt-2">
                   <Textarea
                     placeholder="Understand, research and write about anything"
-                    className="min-h-[20px] w-full resize-none border-0 bg-transparent px-2 py-4 text-base placeholder:text-gray-500 focus:outline-none focus:ring-0 focus:ring-offset-0"
+                    className="min-h-[20px] w-full resize-none border-0 bg-transparent px-2 py-4 text-base placeholder:text-gray-500 focus:outline-none focus:ring-[0!important] focus:ring-offset-0"
                     style={{ fontSize: "15px" }}
                     rows={1}
                     value={inputValue}
@@ -1993,7 +1993,7 @@ const Dashboard: React.FC = () => {
                     </DropdownMenuContent>
                   </DropdownMenu>
 
-                  <Button className="select-none relative justify-center whitespace-nowrap ring-offset-background focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 box-border data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground h-11 rounded-4 data-[state=open]:bg-control-primary focus-visible:outline-none group inline-flex items-center gap-2 px-5 py-2 rounded-4 text-sm font-medium transition-all duration-200 cursor-pointer bg-secondary hover:bg-secondary-hover text-text-primary focus-visible:ring-0 focus-visible:ring-offset-0 w-fit min-w-0 max-w-full">
+                  {/* <Button className="select-none relative justify-center whitespace-nowrap ring-offset-background focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 box-border data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground h-11 rounded-4 data-[state=open]:bg-control-primary focus-visible:outline-none group inline-flex items-center gap-2 px-5 py-2 rounded-4 text-sm font-medium transition-all duration-200 cursor-pointer bg-secondary hover:bg-secondary-hover text-text-primary focus-visible:ring-0 focus-visible:ring-offset-0 w-fit min-w-0 max-w-full">
                     <svg
                       width={12}
                       height={12}
@@ -2008,7 +2008,7 @@ const Dashboard: React.FC = () => {
                         d="M12 4v16m8-8H4"
                       />
                     </svg>
-                  </Button>
+                  </Button> */}
 
                   <div
                     className="flex flex-row gap-2 flex-shrink-0 "
