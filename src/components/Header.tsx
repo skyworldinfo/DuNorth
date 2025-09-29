@@ -29,7 +29,7 @@ export const Header: React.FC = () => {
     <header className="fixed top-0 z-50 w-full bg-white/90 backdrop-blur-xl">
       <div className="relative flex flex-row md:h-[88px] h-16 items-center px-9 md:px-13 lg:px-16 mx-auto max-w-[1280px]">
         <a
-          className="flex flex-row justify-start items-center gap-7 p-7 -m-[1rem] cursor-pointer pr-[2.25rem!important] pt-4"
+          className="flex flex-row justify-start items-center gap-4 p-4 -m-4 cursor-pointer pr-9 pt-2"
           aria-label="DuNorth logo"
           aria-roledescription="DuNorth logo"
           href="/"
@@ -85,7 +85,7 @@ export const Header: React.FC = () => {
                     id="use-cases-trigger"
                     aria-expanded={useCasesDropdown.open}
                     aria-controls="use-cases-dropdown"
-                    className={`group inline-flex w-max items-center justify-center rounded-4 bg-transparent p-6 px-7 text-sm transition-colors hover:bg-accent data-[state=open]:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 font-medium leading-none tracking-[-0.32px] grow antialiased select-none text-black font-system`}
+                    className={`group inline-flex w-max items-center justify-center rounded-4 bg-transparent p-3 px-4 text-sm transition-colors hover:bg-accent data-[state=open]:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 font-medium leading-none tracking-[-0.32px] grow antialiased select-none text-black font-system`}
                     type="button"
                   >
                     Use cases{" "}
@@ -99,7 +99,7 @@ export const Header: React.FC = () => {
                       strokeWidth="3"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className={`lucide lucide-chevron-down relative top-[1px] ml-4 h-9 w-9 transition duration-200 ${
+                      className={`lucide lucide-chevron-down relative top-[1px] ml-2 h-9 w-9 transition duration-200 ${
                         useCasesDropdown.open ? "rotate-180" : ""
                       }`}
                       aria-hidden="true"
@@ -183,7 +183,7 @@ export const Header: React.FC = () => {
                     id="resources-trigger"
                     aria-expanded={resourcesDropdown.open}
                     aria-controls="resources-dropdown"
-                    className={`group inline-flex w-max items-center justify-center rounded-4 bg-transparent p-6 px-7 text-sm transition-colors hover:bg-accent data-[state=open]:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 font-medium leading-none tracking-[-0.32px] grow antialiased select-none text-black font-system`}
+                    className={`group inline-flex w-max items-center justify-center rounded-4 bg-transparent p-3 px-4 text-sm transition-colors hover:bg-accent data-[state=open]:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 font-medium leading-none tracking-[-0.32px] grow antialiased select-none text-black font-system`}
                     type="button"
                   >
                     Resources{" "}
@@ -197,7 +197,7 @@ export const Header: React.FC = () => {
                       strokeWidth="3"
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      className={`lucide lucide-chevron-down relative top-[1px] ml-4 h-9 w-9 transition duration-200 ${
+                      className={`lucide lucide-chevron-down relative top-[1px] ml-2 h-9 w-9 transition duration-200 ${
                         resourcesDropdown.open ? "rotate-180" : ""
                       }`}
                       aria-hidden="true"
@@ -264,25 +264,25 @@ export const Header: React.FC = () => {
           </nav>
           <button
             aria-busy="false"
-            className="inline-flex items-center relative justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 box-border text-black hover:bg-control-primary data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=open]:bg-popover-hover data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground p-6 px-7 h-9.5 rounded-5 gap-3 font-medium leading-none tracking-[-0.32px] grow antialiased select-none font-system"
+            className="inline-flex items-center relative justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 box-border text-black hover:bg-control-primary data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=open]:bg-popover-hover data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground px-4 py-2 h-9.5 rounded-5 gap-3 font-medium leading-none tracking-[-0.32px] grow antialiased select-none font-system"
           >
             <span>Pricing</span>
           </button>
           <button
             aria-busy="false"
-            className="inline-flex items-center relative justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 box-border text-black hover:bg-control-primary data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=open]:bg-popover-hover data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground p-6 px-7 h-9.5 rounded-5 gap-3 font-medium leading-none tracking-[-0.32px] grow antialiased select-none font-system"
+            className="inline-flex items-center relative justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 box-border text-black hover:bg-control-primary data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=open]:bg-popover-hover data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground px-4 py-2 h-9.5 rounded-5 gap-3 font-medium leading-none tracking-[-0.32px] grow antialiased select-none font-system"
           >
             <span>Careers</span>
           </button>
           <button
             aria-busy="false"
-            className="inline-flex items-center relative justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 box-border text-black hover:bg-control-primary data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=open]:bg-popover-hover data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground p-6 px-7 h-9.5 rounded-5 gap-3 font-medium leading-none tracking-[-0.32px] grow antialiased select-none font-system"
+            className="inline-flex items-center relative justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 box-border text-black hover:bg-control-primary data-[highlighted]:bg-popover-hover data-[highlighted]:text-accent-foreground data-[state=open]:bg-popover-hover data-[state=highlighted]:bg-popover-hover group-data-[highlighted]:bg-popover-hover group-data-[highlighted]:text-accent-foreground group-focus:bg-popover-hover group-focus:text-accent-foreground px-4 py-2 h-9.5 rounded-5 gap-3 font-medium leading-none tracking-[-0.32px] grow antialiased select-none font-system"
           >
             <span>Contact sales</span>
           </button>
         </nav>
         <div className="hidden md:flex items-center ml-auto">
-          <div className="flex flex-row gap-8">
+          <div className="flex flex-row gap-5">
             <button
               aria-busy="false"
               className="inline-flex items-center relative justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 box-border bg-secondary text-secondary-foreground hover:bg-secondary-hover h-9.5 rounded-5 gap-3 font-[550] select-none !rounded-full px-9 py-6 h-[2.375rem]"
